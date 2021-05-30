@@ -29,7 +29,6 @@ namespace DietProject
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(addNewPatientPage_));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -253,7 +252,7 @@ namespace DietProject
             // Pb_profilePhoto
             // 
             this.Pb_profilePhoto.BackColor = System.Drawing.Color.Transparent;
-            this.Pb_profilePhoto.Image = ((System.Drawing.Image)(resources.GetObject("Pb_profilePhoto.Image")));
+            this.Pb_profilePhoto.Image = global::DietProject.Properties.Resources.user_profile;
             this.Pb_profilePhoto.Location = new System.Drawing.Point(290, 87);
             this.Pb_profilePhoto.Name = "Pb_profilePhoto";
             this.Pb_profilePhoto.Size = new System.Drawing.Size(115, 115);

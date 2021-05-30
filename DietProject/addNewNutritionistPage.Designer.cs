@@ -29,7 +29,6 @@ namespace DietProject
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(addNewNutritionistPage));
             this.Cb_citys = new System.Windows.Forms.ComboBox();
             this.Dtp_DateOfBirth = new System.Windows.Forms.DateTimePicker();
             this.Rb_fermale = new System.Windows.Forms.RadioButton();
@@ -272,7 +271,7 @@ namespace DietProject
             // Pb_profilePhoto
             // 
             this.Pb_profilePhoto.BackColor = System.Drawing.Color.Transparent;
-            this.Pb_profilePhoto.Image = ((System.Drawing.Image)(resources.GetObject("Pb_profilePhoto.Image")));
+            this.Pb_profilePhoto.Image = global::DietProject.Properties.Resources.user_profile;
             this.Pb_profilePhoto.Location = new System.Drawing.Point(30, 86);
             this.Pb_profilePhoto.Name = "Pb_profilePhoto";
             this.Pb_profilePhoto.Size = new System.Drawing.Size(185, 188);
