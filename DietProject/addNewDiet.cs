@@ -76,6 +76,7 @@ namespace DietProject
             addCumaDietPlan(dietId);
             addCmtDietPlan(dietId);
             addPzDietPlan(dietId);
+
             var mfrm = (dietPage)Application.OpenForms["dietPage"];
             mfrm.GetDgwData();
         }
